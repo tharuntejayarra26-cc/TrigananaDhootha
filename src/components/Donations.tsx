@@ -70,9 +70,13 @@ const FundraisingGoal: React.FC<{ title: string; current: number; goal: number; 
 
 const Donations: React.FC = () => {
   const handleDonate = (amount: string) => {
-    alert(`🙏 Baba Ji blesses you for considering a donation of ${amount}!\n\n(This is a joke website - no actual payment required!)`)
+    alert(`🙏 Received a donation of ${amount}`)
   };
 
+  const playSound = () => {
+    const audio = new Audio("/public/audio/Chaduvukondi First.mp3");
+    audio.play();
+  };
   return (
     <section id="donations" className="py-20 px-4 bg-gradient-to-b from-background to-cream-dark/30">
       <div className="max-w-6xl mx-auto">
@@ -151,7 +155,10 @@ const Donations: React.FC = () => {
                 <Button
                   variant={tier.popular ? 'gold' : 'outline'}
                   className="w-full"
-                  onClick={() => handleDonate(tier.amount)}
+                  onClick={() => {
+                    playSound();
+                    handleDonate(tier.amount);
+                  }}
                 >
                   Donate {tier.amount}
                 </Button>

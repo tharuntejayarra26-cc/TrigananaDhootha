@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
         
         {/* Tagline */}
         <p className="text-xl font-display mb-4">
-          Baba Ji's Ashram of Questionable Enlightenment
+          Triganana Dhootha's Ashram of Questionable Enlightenment
         </p>
         
         {/* Fun links */}
@@ -28,26 +28,14 @@ const Footer: React.FC = () => {
           </span>
         </div>
 
-        {/* Disclaimer */}
-        <div className="border-t border-cream/20 pt-8 mb-6">
-          <p className="text-sm opacity-80 max-w-2xl mx-auto leading-relaxed">
-            <strong>Legal Disclaimer:</strong> This is a satirical website created with love as a joke gift. 
-            No actual spiritual services are offered. No real money is collected. 
-            Baba Ji is a fictional character based on a real friend who has been a very good sport about this. 
-            If you're looking for genuine spiritual guidance, this ain't it. 
-            Please consult an actual qualified professional for real life advice.
-          </p>
-        </div>
+       
 
         {/* Copyright */}
         <p className="text-xs opacity-60">
-          © 2024 Baba Ji Enterprises™ (not a real company) | Made with 💛 and too much chai
+          © 2024 Triganana Dhootha Enterprises™ (not a real company) | Made with 💛 and too much chai
         </p>
 
-        {/* Easter egg */}
-        <p className="text-xs opacity-40 mt-4">
-          🕉️ If you're reading this, Baba Ji blesses you with finding ₹10 in your old jacket pocket 🕉️
-        </p>
+        
       </div>
     </footer>
   );
