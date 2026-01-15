@@ -87,7 +87,7 @@ const Donations: React.FC = () => {
             <span className="text-gradient-spiritual">Support the Journey</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Help Baba Ji continue his sacred mission of doing absolutely nothing productive
+            Help Dhootha continue his sacred mission of doing absolutely nothing productive
             while looking spiritually profound.
           </p>
         </div>
