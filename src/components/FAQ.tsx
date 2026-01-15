@@ -29,20 +29,12 @@ const faqItems: FAQItem[] = [
     answer: "All blessings are non-refundable, non-transferable, and non-functional. However, you can exchange one useless blessing for another equally useless blessing within 30 karmic cycles."
   },
   {
-    question: "Is Baba Ji available for private consultations?",
-    answer: "Baba Ji is always available spiritually, but physically he's usually napping, eating snacks, or pretending to meditate while checking his phone."
+    question: "Is Dhootha available for private consultations?",
+    answer: "Dhootha is always available in B-219 Kalam, midnight discussions are highly preferable."
   },
   {
-    question: "What are Baba Ji's qualifications?",
-    answer: "He once read half a Wikipedia article about meditation. He can spell 'enlightenment' correctly most of the time. He has achieved inbox zero exactly once. These are his credentials."
-  },
-  {
-    question: "How can I join Baba Ji's ashram?",
-    answer: "The ashram is currently his living room, and membership requires bringing snacks. Premium membership includes access to the good WiFi password."
-  },
-  {
-    question: "Does Baba Ji accept other forms of payment?",
-    answer: "Baba Ji accepts good vibes, funny memes, chai, and genuine laughter. Credit cards are spiritually blocked due to bad karma from late fees."
+    question: "How can I join Dhootha's ashram?",
+    answer: "The ashram is currently his living room, and membership requires bringing snacks, telling gossips."
   },
 ];
 
