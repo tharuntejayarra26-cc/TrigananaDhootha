@@ -25,10 +25,6 @@ const faqItems: FAQItem[] = [
     answer: "Nowhere! This is a parody website. No real money is collected. But spiritually? Your good vibes are being invested in the cosmic stock market of positivity."
   },
   {
-    question: "Can I get a refund on my blessing?",
-    answer: "All blessings are non-refundable, non-transferable, and non-functional. However, you can exchange one useless blessing for another equally useless blessing within 30 karmic cycles."
-  },
-  {
     question: "Is Dhootha available for private consultations?",
     answer: "Dhootha is always available in B-219 Kalam, midnight discussions are highly preferable."
   },

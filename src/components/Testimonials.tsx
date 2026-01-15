@@ -36,11 +36,11 @@ const testimonials: Testimonial[] = [
   {
     quote: "Dhootha Ji's advice to get any girl 'puff lo ki sos entha mukhyamo naa life lo nv antha mukhyam",
     name: "Deadline Dodger",
-    title: "Vibes Consultant",
+    title: "Good boy",
     avatar: "https://res.cloudinary.com/dziklqu26/image/upload/v1768480163/tharun_ptevya.jpg",
   },
   {
-    quote: "I came seeking answers. I left with more questions. But like, chill questions. Spiritual, you know?",
+    quote: "I came seeking answers. I left with more questions. Finally total waste of sleep and time.",
     name: "Questioning Soul",
     title: "Pegion file",
     avatar: "https://res.cloudinary.com/dziklqu26/image/upload/v1768480162/suresh_hcfxmp.jpg",
