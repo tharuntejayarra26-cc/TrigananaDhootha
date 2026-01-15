@@ -7,7 +7,7 @@ const Hero: React.FC = () => {
     document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
   };
   const playSound = () => {
-    const audio = new Audio("/public/audio/Aatagade.mp3");
+    const audio = new Audio("https://res.cloudinary.com/dziklqu26/video/upload/v1768480526/Aatagade_mb7zgo.mp3");
     audio.play();
   };
   return (
@@ -27,8 +27,8 @@ const Hero: React.FC = () => {
         {/* Avatar placeholder */}
         <div className="w-40 h-40 md:w-52 md:h-52 mx-auto mb-8 rounded-full bg-gradient-spiritual p-1 shadow-glow animate-glow-pulse">
           <div className="relative w-full h-full rounded-full bg-cream flex items-center justify-center text-6xl md:text-7xl">
-            <img src="/public/Dhootha1.jpeg" alt="charan" onClick={playSound} className='h-full w-full absolute rounded-full z-10 opacity-100 hover:opacity-0 transition-opacity duration-500' />
-            <img src="/public/Dhootha.jpeg" alt="charan" className='absolute rounded-full z-0' />
+            <img src="https://res.cloudinary.com/dziklqu26/image/upload/v1768480300/Dhootha1_uq9zgu.jpg" alt="charan" onClick={playSound} className='h-full w-full absolute rounded-full z-10 opacity-100 hover:opacity-0 transition-opacity duration-500' />
+            <img src="https://res.cloudinary.com/dziklqu26/image/upload/v1768480301/Dhootha_figlej.jpg" alt="charan" className='absolute rounded-full z-0' />
           </div>
         </div>
 
@@ -48,9 +48,7 @@ const Hero: React.FC = () => {
           <span className="text-gold-dark font-semibold">premium daridram</span>.
         </p>
 
-        <p className="text-sm text-muted-foreground mb-8 italic">
-          *actual count: 7 (including his mom and our group chat)
-        </p>
+        
 
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -74,11 +72,7 @@ const Hero: React.FC = () => {
           </Button>
         </div>
 
-        {/* Disclaimer */}
-        <p className="mt-12 text-xs text-muted-foreground max-w-md mx-auto bg-card/50 p-3 rounded-lg border border-border">
-          ⚠️ <strong>Disclaimer:</strong> This is a satirical fundraiser made with love.
-          Baba Ji's enlightenment status is pending verification. No actual spiritual powers included.
-        </p>
+        
       </div>
 
       {/* Scroll indicator */}

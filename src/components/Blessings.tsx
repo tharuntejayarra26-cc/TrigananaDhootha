@@ -60,7 +60,7 @@ const rarityBadge = {
 };
 
 const playSound = () => {
-  const audio = new Audio("/public/audio/Blessing.mp3");
+  const audio = new Audio("https://res.cloudinary.com/dziklqu26/video/upload/v1768480526/Blessing_h9v63l.mp3");
   audio.play();
 };
 

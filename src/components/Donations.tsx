@@ -74,7 +74,7 @@ const Donations: React.FC = () => {
   };
 
   const playSound = () => {
-    const audio = new Audio("/public/audio/Chaduvukondi First.mp3");
+    const audio = new Audio("https://res.cloudinary.com/dziklqu26/video/upload/v1768480527/Chaduvukondi_First_andapi.mp3");
     audio.play();
   };
   return (
